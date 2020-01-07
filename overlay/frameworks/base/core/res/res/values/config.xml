@@ -56,4 +56,19 @@
 
     <!-- Flag indicating whether we should enable the adaptive sleep.-->
     <bool name="config_adaptive_sleep_available">true</bool>
+
+    <!-- Whether device supports variable refresh rate -->
+    <bool name="config_hasVariableRefreshRate">true</bool>
+
+    <!-- Not allow to switch to higher refresh rate when (display, ambient) brightness falls into
+         the region defined by the two arrays -->
+    <integer-array name="config_brightnessThresholdsOfPeakRefreshRate">
+        <item>-1</item>
+    </integer-array>
+    <integer-array name="config_ambientThresholdsOfPeakRefreshRate">
+        <item>-1</item>
+    </integer-array>
+
+    <!-- default refresh rate in the zone defined by brightness and ambient thresholds -->
+    <integer name="config_defaultRefreshRateInZone">120</integer>
 </resources>
