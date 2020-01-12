@@ -65,8 +65,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt
 
+# Shim
 PRODUCT_PACKAGES += \
 	libmedia_jni_shim
+
+# Refresh rate tile
+PRODUCT_PACKAGES += \
+        FrameRateTile
 
 # Device Settings
 PRODUCT_PACKAGES += \
