@@ -9,7 +9,7 @@ TARGET_SCREEN_DENSITY := 440
 
 # Inherit from sm6150-common
 -include device/xiaomi/sm6150-common/BoardConfigCommon.mk
-
+BUILD_BROKEN_DUP_RULES := true
 DEVICE_PATH := device/xiaomi/phoenix
 
 # Properties
@@ -22,6 +22,7 @@ TARGET_OTA_ASSERT_DEVICE := phoenix,phoenixin
 # Audio
 AUDIO_FEATURE_ENABLED_TFA98XX_FEEDBACK := true
 AUDIO_FEATURE_ELLIPTIC_ULTRASOUND_SUPPORT := true
+TARGET_PROVIDES_AUDIO_EXTNS := true
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_phoenix
