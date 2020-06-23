@@ -1,0 +1,2 @@
+require version-cn=CN,4.3.c5-00052,20.6.17
+require version-in=INDIA,4.3.c5-00036,V11.0.11.0.QGHINXM
