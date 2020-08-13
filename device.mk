@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product-if-exists, vendor/xiaomi/phoenix/phoenix-vendor.mk)
 
 # Firmware
-$(call inherit-product, vendor/xiaomi-firmware/phoenix/firmware.mk)
+$(call inherit-product, vendor/xiaomi-firmware/firmware.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
