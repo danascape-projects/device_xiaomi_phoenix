@@ -154,7 +154,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
