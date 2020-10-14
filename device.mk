@@ -20,6 +20,12 @@ $(call inherit-product-if-exists, vendor/google/psu/google-psu.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Gapps
+$(call inherit-product-if-exists, vendor/google/gms/config.mk)
+
+# Pixel components
+$(call inherit-product-if-exists, vendor/google/pixel/config.mk)
+
 -include $(LOCAL_PATH)/system_prop.mk
 -include $(LOCAL_PATH)/product_prop.mk
 
