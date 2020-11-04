@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_phoenix.mk
+    $(LOCAL_DIR)/derp_phoenix.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_phoenix-user \
-    pixys_phoenix-userdebug \
-    pixys_phoenix-eng
+    derp_phoenix-user \
+    derp_phoenix-userdebug \
+    derp_phoenix-eng
